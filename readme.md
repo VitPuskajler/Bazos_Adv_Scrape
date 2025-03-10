@@ -1,6 +1,6 @@
 # Tool to Analyze Car Ads on Bazos Without Opening Each Listing
 
-This Python–Flask application automates the extraction of key details from [auta.bazos.sk](https://auta.bazos.sk) ads, saving you the hassle of manually opening each listing. It retrieves:
+This Python–Flask application automates the extraction of key details from [auta.bazos.sk](https://auto.bazos.sk) ads, saving you the hassle of manually opening each listing. It retrieves:
 
 - **Year of Manufacture:** 1995–2023
 - **Engine Power:** in kW
