@@ -1,9 +1,8 @@
-This program is searching for specific data from ads in auta.bazos.sk 
+# Tool to Analyze Car Ads on Bazos Without Opening Each Listing
 
-1) Year the car was constructed: From 1995 - 2023
-2) Car performance in kW
-3) Driven kM
+A Python–Flask application that automatically extracts:
 
-- App will load each webpage for aprox. 12 seconds. I would suggest downloading the data locally beforehand to speed up the program.
-- The logic behind searching driven kilometers (km), kilowatts (kW), and years isn't perfect because Bazoz uses plain text, and users can add as many similar numbers as they want.
-- If you want to search for bikes, just add logic to the pre-existing function in Flask
+Year of manufacture (1995–2023)
+Engine power in kW
+Mileage (km)
+from auta.bazos.sk ads—no need to manually open each listing. Because Bazos uses free-form text, the search logic can be imperfect, but it reliably handles common ad formats. Pages can take ~12 seconds to load, so local caching is recommended to improve performance. If you need to adapt the tool for other vehicle types (e.g., bikes), simply extend the existing Flask functions.
